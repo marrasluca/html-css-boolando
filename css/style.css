@@ -2,6 +2,8 @@ html {
     font-family: sans-serif;
 }
 
+/* inizio footer */
+
 .flex {
     display: flex;
     justify-content: space-around;
@@ -20,3 +22,30 @@ html {
     color: white;
 }
 
+/* inizio main */
+
+main {
+    padding: 0 10px;
+}
+
+.container-80 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-basis: calc( 100 / 3 - 10px );
+    margin: 20px;
+    
+}
+
+.container-80 > div {
+    flex-basis: calc( 100 / 3 - 10px );
+}
+
+.card {
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 20px;
+    
+}
