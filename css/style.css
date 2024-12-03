@@ -32,20 +32,20 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    flex-basis: calc( 100 / 3 - 10px );
+    flex-basis: calc( 100 / 3 );
     margin: 20px;
+    background-color: red;
     
 }
 
-.container-80 > div {
-    flex-basis: calc( 100 / 3 - 10px );
-}
 
 .card {
-    padding: 20px;
+    
     width: 30%;
+    height: 632px;
     text-align: center;
     box-sizing: border-box;
     margin: 20px;
+    background-color: white;
     
 }
