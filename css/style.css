@@ -22,29 +22,84 @@ html {
     color: white;
 }
 
+.header-icon {
+    color: white;
+    margin: 10px;
+}
+
 /* inizio main */
 
-main {
-    padding: 0 10px;
+main { 
+    padding: 20px;
 }
 
-.container-80 {
+.cards {
     display: flex;
     flex-wrap: wrap;
+    gap: 10px;
     justify-content: space-between;
-    margin: 20px;
-    background-color: red;
-    
 }
 
-
 .card {
-    
-    width: 30%;
-    height: 632px;
-    text-align: center;
-    box-sizing: border-box;
-    margin: 20px;
+    flex-basis: calc(100% / 3 - 10px);
+    flex-grow: 1;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card__img {
+    position: relative;
+}
+
+.card__icon ,
+.card__etichetta {
+        position: absolute;
+}
+
+.card__icon {
+    top: 10px;
+    right: 0;
+    padding: 5px;
     background-color: white;
-    
+}
+
+.card__etichetta{
+    display: flex;
+    gap: 10px;
+    bottom: 20px;
+    align-items: center;
+}
+
+.card__sconto {
+    background-color: #FF6801;
+    color: white;
+    padding: 5px;
+}
+
+.card__etichetta--nome  {
+    background-color: green;
+    color: white;
+}
+
+.card__bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card__bottom-prezzo {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.card__bottom-prezzo span {
+    color: red;
+}
+
+.card__bottom-prezzo span:nth-child(2) {
+    text-decoration: line-through;
+    color: black;
 }

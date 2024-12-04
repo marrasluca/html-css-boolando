@@ -1,8 +1,9 @@
-*{
-    padding: 0%;
-    margin: 0%;
+
+
+html {
+    line-height: 160%;
 }
 
-img {
-    display: block;
+header {
+    padding-block: 15px;
 }
