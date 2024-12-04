@@ -103,3 +103,17 @@ main {
     text-decoration: line-through;
     color: black;
 }
+
+.img-invisibile {
+    display: none;
+}
+
+.card__img:hover .img-visibile {
+    cursor: pointer;
+    display: none;
+}
+
+.card__img:hover .img-invisibile {
+    cursor: pointer;
+    display: block;
+}
